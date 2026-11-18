@@ -1,0 +1,36 @@
+This section covers basic conditional branching and selection statements in C. Below are the problems implemented:
+
+### 1. Exam Eligibility Checker
+* **Description:** A program that checks if a student is eligible to sit for final exams based on two strict criteria[span_3](start_span)[span_3](end_span):
+  * Attendance must be $\ge 75\%$[span_4](start_span)[span_4](end_span).
+  * Average marks must be $\ge 40$[span_5](start_span)[span_5](end_span).
+* **Output:** Prints `"Eligible for final exams"` if conditions are met; otherwise, prints `"Not eligible."`[span_6](start_span)[span_6](end_span).
+
+### 2. Water Bill Calculator
+* **Description:** Computes a customer's total water consumption bill based on a progressive tiered pricing structure[span_7](start_span)[span_7](end_span):
+  * **0–30 units:** 20 KES per unit[span_8](start_span)[span_8](end_span)
+  * **31–60 units:** 25 KES per unit[span_9](start_span)[span_9](end_span)
+  * **Above 60 units:** 30 KES per unit[span_10](start_span)[span_10](end_span)
+* **Features:** Uses `if-else if-else` statements to calculate the exact cost and displays the total bill formatted to two decimal places with the `KES` currency label[span_11](start_span)[span_11](end_span).
+
+### 3. Mobile Data Bundle Purchase Menu
+* **Description:** Simulates a local mobile service provider's data bundle menu using a `switch` statement[span_12](start_span)[span_12](end_span).
+* **Available Options:**
+
+| Option | Bundle Size | Cost (KES) |
+| :---: | :---: | :---: |
+| **1** | 100 MB | 50[span_13](start_span)[span_13](end_span) |
+| **2** | 500 MB | 200[span_14](start_span)[span_14](end_span) |
+| **3** | 1 GB | 350[span_15](start_span)[span_15](end_span) |
+| **4** | 2 GB | 600[span_16](start_span)[span_16](end_span) |
+
+* **Features:** Prompts the user for a choice ($1-4$), validates the input, and displays an `"Invalid choice"` message if an out-of-range number is entered[span_17](start_span)[span_17](end_span).
+
+---
+
+1. Ensure you have a C compiler installed (such as `gcc`).
+2. Clone the repository or download the source file:
+   ```bash
+   git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git)
+   
+   
